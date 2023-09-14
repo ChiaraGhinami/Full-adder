@@ -4,7 +4,5 @@ package:
     - "Chiara Ghinami"
 
 sources:
-  - include_dirs:
-      - src
-    files:
+  - files:
       - src/full_adder.sv
