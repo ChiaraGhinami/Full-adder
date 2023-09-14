@@ -1,0 +1,13 @@
+package:
+  name: Full-adder
+  authors:
+    - "Chiara Ghinami"
+
+sources:
+  - FA.sv
+  # TB sources
+  - target: any(test,simulation)
+    files:
+      - tb_FA.sv
+
+
