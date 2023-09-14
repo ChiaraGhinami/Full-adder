@@ -1,4 +1,4 @@
-module fa(a,b,c,sum,co);
+module full_adder(a,b,c,sum,co);
 input a,b,c;
 output sum,co;
 assign sum=a^b^c;
