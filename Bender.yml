@@ -8,6 +8,6 @@ sources:
   # TB sources
   - target: any(test,simulation)
     files:
-      - tb_FA.sv
+      - test/tb_FA.sv
 
 
