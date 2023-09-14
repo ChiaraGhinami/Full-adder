@@ -4,7 +4,7 @@ package:
     - "Chiara Ghinami"
 
 sources:
-  - FA.sv
+  - scr/FA.sv
   # TB sources
   - target: any(test,simulation)
     files:
