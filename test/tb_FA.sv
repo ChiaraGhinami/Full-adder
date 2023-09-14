@@ -5,7 +5,7 @@ reg a,b,c;
 integer i;
 wire sum,co;
 
-fa dut(a,b,c,sum,co);
+full_adder dut(a,b,c,sum,co);
 
 initial begin
 $monitor($time,"ns\ta=%0d,b=%0d,c=%0d,sum=%0d,co=%0d",a,b,c,sum,co);
