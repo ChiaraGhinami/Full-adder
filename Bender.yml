@@ -4,7 +4,7 @@ package:
     - "Chiara Ghinami"
 
 sources:
-  - scr/full_adder.sv
+  - src/full_adder.sv
   # TB sources
   - target: any(test,simulation)
     files:
