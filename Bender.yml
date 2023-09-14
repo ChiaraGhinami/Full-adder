@@ -8,6 +8,6 @@ sources:
   # TB sources
   - target: any(test,simulation)
     files:
-      - test/tb_full_adder.sv
+      - test/tb_FA.sv
 
 
