@@ -1,5 +1,5 @@
 package:
-  name: Full-adder
+  name: full_adder
   authors:
     - "Chiara Ghinami"
 
