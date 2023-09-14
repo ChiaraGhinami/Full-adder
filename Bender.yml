@@ -4,10 +4,7 @@ package:
     - "Chiara Ghinami"
 
 sources:
-  - src/full_adder.sv
-  # TB sources
-  - target: any(test,simulation)
+  - include_dirs:
+      - src
     files:
-      - test/tb_FA.sv
-
-
+      - src/full_adder.sv
